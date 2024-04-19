@@ -21,6 +21,14 @@ function GenerateReports() {
     <ul className="flex justify-center items-center gap-5  space-y-2">
       <li className='gap-5'>
         <Link
+          to="/"
+          className="text-white text-lg hover:underline"
+        >
+          Accueil
+        </Link>
+      </li >
+      <li className='gap-5'>
+        <Link
           to="/manage-students"
           className="text-white text-lg hover:underline"
         >
@@ -49,14 +57,6 @@ function GenerateReports() {
           className="text-white text-lg hover:underline"
         >
           Gestion des absences
-        </Link>
-      </li>
-      <li className='gap-5' >
-        <Link
-          to="/view-results"
-          className="text-white text-lg hover:underline"
-        >
-          Consultation des résultats
         </Link>
       </li>
       <li className='gap-5'>
